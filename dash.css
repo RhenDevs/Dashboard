@@ -44,6 +44,7 @@ nav ul {
 .navbar h1 {
     color: #ff9800;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .menu-toggle {
