@@ -11,7 +11,7 @@ body {
 /* Navbar */
 /* Navbar */
 .navbar {
-    background: #ffffff;
+    background: #333;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -172,7 +172,7 @@ footer {
 
 /* Navbar */
 .navbar {
-    background: #ffffff;
+    background: #333;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
