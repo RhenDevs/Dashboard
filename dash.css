@@ -189,23 +189,6 @@ nav ul {
     gap: 20px;
 }
 
-/* Hide the menu by default on mobile */
-@media screen and (max-width: 768px) {
-    nav {
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 15px;
-        background: black;
-        padding: 15px;
-        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 
 /* Mobile - Hide Menu Until Clicked */
 @media screen and (max-width: 768px) {
@@ -216,6 +199,7 @@ nav ul {
     nav {
         display: none;
         position: absolute;
+        padding: 0;
         top: 60px;
         right: 15px;
         background: white;
@@ -226,5 +210,13 @@ nav ul {
     nav ul {
         flex-direction: column;
         gap: 10px;
+        padding: 0px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      
     }
+
+    
 }
