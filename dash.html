@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poultry Farm</title>
+    <link rel="stylesheet" href="dash.css">
+    <script defer src="dash.js"></script>
+</head>
+<body>
+
+    <!-- Navbar with Hamburger Menu -->
+    <header class="navbar">
+        <h1>🐓 Poultry Farm</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Investment</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Sustainable Poultry Farming</h2>
+        <p>High-quality poultry, ethical practices, and profitable farm investments.</p>
+        <button>Explore Now</button>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="chickens.jpg" alt="Chickens">
+                <h3>Organic Chickens</h3>
+                <p>Fresh, farm-raised chickens available for sale.</p>
+            </div>
+            <div class="product-card">
+                <img src="eggs.jpg" alt="Eggs">
+                <h3>Premium Eggs</h3>
+                <p>High-quality eggs from well-fed hens.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Section -->
+    <section class="investment">
+        <h2>Invest in Sustainable Farming</h2>
+        <p>Grow your farm with profitable investment options.</p>
+        <div class="stats">
+            <p><strong>Projected ROI:</strong> 12% per annum</p>
+            <p><strong>Farming Area:</strong> 250 hectares</p>
+            <p><strong>Total Investors:</strong> 500+</p>
+        </div>
+    </section>
+
+    <!-- Analytics Dashboard -->
+    <section class="analytics">
+        <h2>Farm Performance Analytics</h2>
+        <canvas id="statsChart"></canvas>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Poultry Farm. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

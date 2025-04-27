@@ -1,0 +1,230 @@
+/* styles.css */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+/* Navbar */
+/* Navbar */
+.navbar {
+    background: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none; /* Hidden by default on desktop */
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.navbar h1 {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #ff9800, #ffcc80);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero button {
+    background: #fff;
+    color: #ff9800;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.hero button:hover {
+    background: #ffd699;
+}
+
+/* Product Section */
+.products {
+    text-align: center;
+    padding: 50px;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Investment Section */
+.investment {
+    text-align: center;
+    padding: 50px;
+    background: #e3f2fd;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stats p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Analytics Section */
+.analytics {
+    text-align: center;
+    padding: 50px;
+}
+
+.chart-container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff9800;
+    color: white;
+    font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+    background: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Hide the menu by default on mobile */
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        background: black;
+        padding: 15px;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Mobile - Hide Menu Until Clicked */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        background: white;
+        padding: 15px;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
