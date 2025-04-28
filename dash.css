@@ -34,10 +34,8 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    padding: 0px 30px;
 }
-
-
 
 
 .navbar h1 {
@@ -62,7 +60,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
