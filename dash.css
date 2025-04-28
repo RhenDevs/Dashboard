@@ -7,8 +7,7 @@ body {
     color: #333;
 }
 
-/* Navbar */
-/* Navbar */
+
 /* Navbar */
 .navbar {
     background: #333;
@@ -195,6 +194,7 @@ nav ul {
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
+       
     }
 
     nav {
@@ -205,17 +205,25 @@ nav ul {
         right: 15px;
         background: white;
         padding: 15px;
-        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        border-radius: 6px;
+        
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 
     nav ul {
         flex-direction: column;
-        gap: 10px;
+        font-weight: bold;
+
         padding: 0px;
-    
+        width: 150px;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
       
     }
 
