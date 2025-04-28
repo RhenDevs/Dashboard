@@ -41,7 +41,7 @@ nav ul {
 .navbar h1 {
     color: #ff9800;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Poppins;
 }
 
 .menu-toggle {
@@ -63,6 +63,7 @@ nav ul li a {
     color: white;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
+    font-family: Poppins;
 }
 
 nav ul li a:hover {
@@ -80,6 +81,7 @@ nav ul li a:hover {
 .hero h2 {
     font-size: 36px;
     font-weight: bold;
+    font-family: Poppins;
 }
 
 .hero button {
@@ -145,6 +147,7 @@ nav ul li a:hover {
 .stats p {
     font-size: 18px;
     font-weight: bold;
+    font-family: Poppins;
 }
 
 /* Analytics Section */
@@ -165,6 +168,7 @@ footer {
     background: #ff9800;
     color: white;
     font-size: 16px;
+    font-family: Poppins;
 }
 
 /* Navbar */
