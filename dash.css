@@ -227,5 +227,8 @@ nav ul {
       
     }
 
+    nav ul li a{
+        color: white;
+    }
     
 }
