@@ -71,3 +71,4 @@ const ctx = document.getElementById('statsChart').getContext('2d');
                 }
             }
         });
+
