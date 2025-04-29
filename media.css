@@ -1,0 +1,42 @@
+/* Mobile - Hide Menu Until Clicked */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+       
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        padding: 0;
+        top: 60px;
+        right: 15px;
+        background: white;
+        padding: 15px;
+        border-radius: 6px;
+        
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+    nav ul {
+        flex-direction: column;
+        font-weight: bold;
+
+        padding: 0px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    nav ul li a{
+        color: white;
+    }
+    
+}
